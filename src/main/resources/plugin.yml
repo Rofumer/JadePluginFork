@@ -1,0 +1,10 @@
+name: JadePlugin
+version: "${version}"
+main: jonyboylovespie.jade.plugin.JadePlugin
+api-version: "26.3"
+author: Jonyboylovespie
+description: Paper plugin that provides Jade server-side support for Fabric clients
+permissions:
+  jadeplugin.itemstorage:
+    description: Allows seeing container contents in the Jade overlay
+    default: true

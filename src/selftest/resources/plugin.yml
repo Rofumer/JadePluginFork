@@ -1,0 +1,5 @@
+name: JadeSelfTest
+version: "1.0"
+main: jonyboylovespie.jade.selftest.SelfTestPlugin
+api-version: "26.3"
+depend: [JadePlugin]

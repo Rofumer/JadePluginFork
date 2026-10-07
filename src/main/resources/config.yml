@@ -1,0 +1,12 @@
+# Extra distance (in blocks) on top of the player's interaction range within which
+# the server answers Jade requests. Same as Jade's "jade:max_position_deviation" game rule.
+max-position-deviation: 21
+
+# Minimal interval between two Jade requests from the same player, in milliseconds.
+# Jade's own server side uses 50 ms.
+request-interval-ms: 50
+
+item-storage:
+  # Show container contents (chests, barrels, shulker boxes, hoppers, chest minecarts, ...).
+  # Players also need the "jadeplugin.itemstorage" permission (granted to everyone by default).
+  enabled: true
